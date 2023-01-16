@@ -23,28 +23,16 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	//First custom variable
 	UPROPERTY(EditAnywhere)
-    int32 MyInt = 99;
+	FVector MyVector = FVector(0,0,0);
 
-	//custom variable
 	UPROPERTY(EditAnywhere)
-    int32 InputA = 0;
+	float MyX = 0;
 
-	//custom variable
 	UPROPERTY(EditAnywhere)
-    int32 InputB = 0;
+	float MyY = 0;
 
-	//custom variable
 	UPROPERTY(EditAnywhere)
-    int32 APlusB = 0;
-
-	//Demo custom variable
-	UPROPERTY(EditAnywhere)
-	float MyFloat = 5.99;
-
-	//Demo custom variable
-	UPROPERTY(EditAnywhere)
-	bool MyBool = true;
+	float MyZ = 0;
 
 };
