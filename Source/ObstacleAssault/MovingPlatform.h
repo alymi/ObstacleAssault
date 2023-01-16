@@ -27,4 +27,24 @@ public:
 	UPROPERTY(EditAnywhere)
     int32 MyInt = 99;
 
+	//custom variable
+	UPROPERTY(EditAnywhere)
+    int32 InputA = 0;
+
+	//custom variable
+	UPROPERTY(EditAnywhere)
+    int32 InputB = 0;
+
+	//custom variable
+	UPROPERTY(EditAnywhere)
+    int32 APlusB = 0;
+
+	//Demo custom variable
+	UPROPERTY(EditAnywhere)
+	float MyFloat = 5.99;
+
+	//Demo custom variable
+	UPROPERTY(EditAnywhere)
+	bool MyBool = true;
+
 };
